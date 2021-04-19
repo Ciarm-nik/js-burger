@@ -7,6 +7,8 @@ submitBnt.addEventListener("click", function () {
     var coupon = document.getElementById("coupon");
     var somma = 50
 
+    coupon = somma*0.10
+
     // Seleziono tutti gli elementi delle checkbox
     var listaIngredienti = document.querySelectorAll(".ingredient [type='checkbox']");
 
